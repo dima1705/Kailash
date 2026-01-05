@@ -1,0 +1,224 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "TourDaySchedule",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "TourPlan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TimeDay",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "TourPlan",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Tour",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_at",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isActiveNow",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TourParticipants",
+          "arrayConfig": "CONTAINS"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isFutureTour",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TourParticipants",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "TourCreatedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "TourGid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TourStart",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "TourGid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TourCreatedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "GalleryPhoto",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "photo_gallery",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "photo_approved",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "photo_created_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "TourPlan",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "Tour",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Day",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "TourParticipants",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "TourStart",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "GalleryPhoto",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "photo_creator",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "photo_created_at",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "chat_users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "chat_last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Chat_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cm_chat",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "cm_message_sent",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_Gid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tours",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "isPastTour",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "TourParticipants",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "TourFinish",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}

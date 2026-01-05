@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>775886134123-o1l4ajr26t0iidlphd8d7quj0olidm9a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.775886134123-o1l4ajr26t0iidlphd8d7quj0olidm9a</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>775886134123-2tsd60q9ipqur6p6k94trcn7peb4bqnv.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDdC6t9Bx9tekYWubgsLYmFKaS1H4Z1icU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>775886134123</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mycompany.kailash</string>
+	<key>PROJECT_ID</key>
+	<string>kailash-e332jc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kailash-e332jc.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:775886134123:ios:c379ca21215f5fd17f4a2e</string>
+	<key>DATABASE_URL</key>
+	<string>https://kailash-e332jc-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

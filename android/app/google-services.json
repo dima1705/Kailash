@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "775886134123",
+    "firebase_url": "https://kailash-e332jc-default-rtdb.firebaseio.com",
+    "project_id": "kailash-e332jc",
+    "storage_bucket": "kailash-e332jc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775886134123:android:b16b0fb7f8bb66947f4a2e",
+        "android_client_info": {
+          "package_name": "com.mycompany.kailash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775886134123-2tsd60q9ipqur6p6k94trcn7peb4bqnv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.kailash",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "775886134123-76fpgikqejkoupfnej4p9ih8tag6vqog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ0bmWY0ybbhlLxdf8fLJLWrk3tYxR2Xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775886134123-76fpgikqejkoupfnej4p9ih8tag6vqog.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "775886134123-o1l4ajr26t0iidlphd8d7quj0olidm9a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.kailash"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
